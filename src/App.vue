@@ -16,12 +16,12 @@
     <div class="main" v-motion :initial="{ opacity: 0 }" :enter="{ opacity: 1 }" :duration="1000">
       <div class="info">
         <div class="header">
-          <img src="https://i.p-i.vip/43/20240913-66e403f2331ec.webp" alt="">
+          <img src="https://laobinghu-cdn.s3.bitiful.net/avatar/avatar.webp" alt="">
         </div>
 
         <div class="infoText">
           <h1>Hi,</h1>
-          <h1>I'm <span class="qn">鹊楠</span></h1>
+          <h1>I'm <span class="qn">烧瑚烙饼</span></h1>
         </div>
       </div>
 
@@ -55,7 +55,7 @@
     </div>
 
     <div class="footer">
-      By Quenan | ©2024
+      Code By Quenan | Edit By Laobinghu | ©2024
     </div>
 
     <vs-dialog overlay-blur width="550px" not-center v-model="active">
@@ -83,25 +83,23 @@
 
             <vs-tooltip placement="top">
               <vs-avatar color="#FF6D1A">
-                初
+                ?
               </vs-avatar>
 
-              <template #content>初七云cdn</template>
+              <template #content>?</template>
             </vs-tooltip>
 
           </vs-avatar-group>
         </vs-alert>
 
         <vs-alert color="#00BCD4" type="gradient" v-model:hidden-content="aboutHidden">
-          <template #title>关于项目</template>
-
-          <p>你可以从这里访问 <b>我的博客、GitHub、哔哩哔哩、网易云歌单</b> 以及给我发 <b>邮件</b> ！</p>
+          <template #title>关于该主页</template>
           <p>本项目借鉴了
             <b><a href="https://pzj.us.kg/" target="_blank">pzjawa</a></b> 、
             <b><a href="https://www.liushen.fun/" target="_blank">清羽飞扬</a></b>
             等主页，感谢他们awa
           </p>
-          <p>项目已经开源：</p>
+          <p>原作在此：</p>
           <p><a href="https://github.com/QNquenan/homepage-for-vue3"
               target="_blank">https://github.com/QNquenan/homepage-for-vue3</a>
           </p>
@@ -153,41 +151,40 @@ export default {
       techHidden: true,
       aboutHidden: true,
       typingTexts: [
-        "你好鸭，欢迎来到我的主页！",
-        "彼方尚有荣光在，世界不止眼前的苟且，还有诗和远方",
-        "累了可以在我这里歇歇脚嗷",
-        "May you happy every day",
+        "你好,陌生人！",
+        "在茫茫人海中遇见你真幸运！",
+        "想要看看我的米奇妙妙屋吗?",
       ],
       btnList: [
         {
           icon: 'icon-wodeboke',
           animate: '博客',
           color: '#fe8599',
-          href: 'https://blog.quenan.love'
+          href: 'https://blog.647382.xyz'
         },
         {
           icon: 'icon-github',
           animate: 'Github',
           color: '#3d3d3d',
-          href: 'https://github.com/QNquenan'
+          href: 'https://github.com/laobinghu'
         },
         {
           icon: 'icon-bilibili',
           animate: 'BiliBili',
           color: '#0BA6D8',
-          href: 'https://space.bilibili.com/495882959'
+          href: 'https://space.bilibili.com/440411139'
         },
         {
           icon: 'icon-youjian1',
           animate: 'E-mail',
           color: '#FACB1E',
-          href: 'mailto:qn2987271942@outlook.com'
+          href: 'mailto:laobinghu2009@qq.com'
         },
         {
           icon: 'icon-wangyiyunyinle1',
           animate: '网易云',
           color: '#D81E06',
-          href: 'https://music.163.com/#/playlist?id=2696501847&creatorId=1785635020'
+          href: 'https://music.163.com/playlist?id=3195684080&uct2=U2FsdGVkX1/d6xbdqoe4evS/96hASHPP60+y9986V+Y='
         },
       ],
       avaters: [
