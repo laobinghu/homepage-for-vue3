@@ -55,7 +55,7 @@
     </div>
 
     <div class="footer">
-      By Quenan | ©2024
+      Code By Quenan | Edit By Laobinghu | ©2024-2025
     </div>
 
     <vs-dialog overlay-blur width="550px" not-center v-model="active">
